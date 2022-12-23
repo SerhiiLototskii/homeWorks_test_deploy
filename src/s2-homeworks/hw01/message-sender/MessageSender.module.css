@@ -3,11 +3,32 @@
 }
 
 .textarea {
-
+    background: #F5F7FB;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 20px;
+    min-width: 976px;
+    min-height: 40px;
+    border: 0;
+    outline: none;
+    resize: none;
+    padding: 12px;
 }
 
 .button {
+    width: 120px;
+    height: 40px;
+    background: #0066CC;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
 
+}
+.button text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 .button:hover {

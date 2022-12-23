@@ -1,11 +1,23 @@
 .App {
     --header_height: 60px;
 }
+.container{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+.messagesContainer{
+    display: flex;
+    justify-content: space-between;
+}
 .hw {
 
 }
 
 .hwTitle {
-
+    width: 165px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 22px;
 }
