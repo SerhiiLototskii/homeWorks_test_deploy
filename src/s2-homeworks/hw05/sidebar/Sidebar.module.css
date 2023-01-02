@@ -1,22 +1,38 @@
 .sidebar {
+
 }
 
 .sidebar.open {
+
 }
 
 .background {
 }
 
 .nav {
+
 }
 
 .nav a {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    width: 72px;
+    height: 27px;
+    text-decoration: none;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
+    font-weight: 600;
+    font-size: 22px;
+    color: #0059B2;
+    width: 72px;
+    height: 27px;
+    text-decoration-line: underline;
 }
 .close {
 }
