@@ -12,13 +12,17 @@ function Clock() {
     const start = () => {
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
-       let newTimerId = setInterval(setDate, 1000)
-        setTimerId(newTimerId)
+        let timerId = window.setInterval(() => {
+            setDate(new Date())
+        }, 1000)
+        setTimerId(timerId)
     }
 
     const stop = () => {
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
-    clearInterval(timerId)
+        clearInterval(timerId)
+        setTimerId(undefined)
+
     }
 
     const onMouseEnter = () => { // пишут студенты // показать дату если наведена мышка
